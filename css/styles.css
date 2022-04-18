@@ -9,6 +9,7 @@
     --third-color:#F5F4FA;
     --secondary-text-color:#212121;
     --fifth-color: rgba(255, 255, 255, 0.6);
+    --six-color: #ECECEC;
 }
 
 body {
@@ -17,14 +18,39 @@ body {
 }
 /* ==========HEADER============ */
 
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+ul,ol{
+    margin: 0;
+    padding: 0;
+}
+p{
+    padding: 0;
+}
+img{
+    display: block;
+}
+.container{
+    width: 1200px;
+    align-items: center;
+    /* padding: 80px; */
+}
 .header{
     background-color: var(--four-color);
 }
 
+.header .container{
+    display: flex;
+}
 .logo-part{
     color: var(--main-color);
 }
+/* .navigation{
+    display: flex;
+} */
 .navigation-list{
+    display: flex;
     list-style-type: none;
 }
 .navigation-logo {
@@ -34,6 +60,8 @@ body {
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--secondary-text-color);
+    margin-left: 215px;
+    margin-right: 93px;
 }
 .navigation-list-link {
     font-weight: 500;
@@ -42,6 +70,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
     text-decoration: none;
+    margin-right: 46px;
 }
 
 .navigation-list-link:hover,
@@ -52,7 +81,9 @@ body {
 .navigation-list-link:visited {
     color: var(--secondary-text-color);
 }
-
+.address{
+    display: flex;
+}
 .address-mail {
     font-style: normal;
     font-weight: 500;
@@ -65,6 +96,7 @@ body {
 .address-mail:focus,
 .address-mail:hover{
     color: var(--main-color);
+    text-decoration: underline;
 }
 
 .phone-number {
@@ -79,6 +111,7 @@ body {
 .phone-number:focus,
 .phone-number:hover{
     color: var(--main-color);
+    text-decoration: underline;
 }
 /* ==========END HEADER============ */
 /* =============MAIN============ */
