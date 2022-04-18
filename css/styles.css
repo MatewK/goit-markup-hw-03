@@ -24,6 +24,9 @@ body {
 .logo-part{
     color: var(--main-color);
 }
+.navigation-list{
+    list-style-type: none;
+}
 .navigation-logo {
     font-family: var(--secondary-font);
     font-size: 26px;
@@ -88,16 +91,88 @@ body {
     background-color: var(--main-color);
     color: var(--four-color);
     cursor: pointer;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
-.service-button {
+.service-button-1 {
     background-color: var(--third-color);
     color: var(--secondary-text-color);
     cursor: pointer;
+    /* position: absolute; */
+    width: 121px;
+    height: 38px;
+    padding: 6 22 6 22;
+    border-radius: 4px;
 }
-.service-button:hover{
+.service-button-1:hover{
     background-color: var(--main-color);
     color: var(--four-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+.service-button-2 {
+    background-color: var(--third-color);
+    color: var(--secondary-text-color);
+    cursor: pointer;
+    /* position: absolute; */
+    width: 93px;
+    height: 38px;
+    padding: 6 22 6 22;
+    border-radius: 4px;
+}
+.service-button-2:hover{
+    background-color: var(--main-color);
+    color: var(--four-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.service-button-3 {
+    background-color: var(--third-color);
+    color: var(--secondary-text-color);
+    cursor: pointer;
+    /* position: absolute; */
+    width: 114px;
+    height: 38px;
+    padding: 6 22 6 22;
+    border-radius: 4px;
+}
+.service-button-3:hover{
+    background-color: var(--main-color);
+    color: var(--four-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.service-button-4 {
+    background-color: var(--third-color);
+    color: var(--secondary-text-color);
+    cursor: pointer;
+    /* position: absolute; */
+    width: 91px;
+    height: 38px;
+    padding: 6 22 6 22;
+    border-radius: 4px;
+}
+.service-button-4:hover{
+    background-color: var(--main-color);
+    color: var(--four-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.service-button-5 {
+    background-color: var(--third-color);
+    color: var(--secondary-text-color);
+    cursor: pointer;
+    /* position: absolute; */
+    width: 121px;
+    height: 38px;
+    padding: 6 22 6 22;
+    border-radius: 4px;
+}
+.service-button-5:hover{
+    background-color: var(--main-color);
+    color: var(--four-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
 
 .our-team-images{
     background-color: var(--third-color);
